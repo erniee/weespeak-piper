@@ -26,8 +26,10 @@ weespeak will output the incoming messages on the current channel-buffer through
 
  ```/python load weespeak.py```
  * Then set the backend to piper
-  ```/set plugins.var.python.weespeak.backend piper ```
+
+  ```/set plugins.var.python.weespeak.backend piper```
 * Then set the voice you want to use
+
 ```/set plugins.var.python.weespeak.piper_model ~/.local/share/piper/en_US-amy-medium.onnx```
 
 * Otherwise load it from any path:
