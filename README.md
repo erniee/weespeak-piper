@@ -15,6 +15,7 @@ weespeak will output the incoming messages on the current channel-buffer through
 * weechat http://weechat.org/
 * python-espeak https://launchpad.net/python-espeak
 * Piper https://github.com/OHF-Voice/piper1-gpl
+  Install with pip install piper-tts
 
 ## Usage:
 * If you copied _weespeak.py_ to _~/.weechat/python/_, you load it by running:
