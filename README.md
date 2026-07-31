@@ -1,17 +1,20 @@
-# weespeak - espeak in weechat
+# weespeak - piper in weechat
+I really liked the idea of the script providing text-to-speech, but I was not a fan of Espeak's voices. 
+I modified the script using Claude to use Piper 
 
-weespeak will output the incoming messages on the current channel-buffer through espeak.
+weespeak will output the incoming messages on the current channel-buffer through piper.
 
 ## Source
 
-* http://github.com/namarrgon/weespeak
+* http://github.com/erniee/weespeak-piper
 
- ```git clone git://github.com/namarrgon/weespeak.git weespeak```
+ ```git clone git://github.com/erniee/weespeak-piper.git weespeak```
 
 ## Dependencies
 
 * weechat http://weechat.org/
 * python-espeak https://launchpad.net/python-espeak
+* Piper https://github.com/OHF-Voice/piper1-gpl
 
 ## Usage:
 * If you copied _weespeak.py_ to _~/.weechat/python/_, you load it by running:
