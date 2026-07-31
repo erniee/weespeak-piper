@@ -25,6 +25,11 @@ weespeak will output the incoming messages on the current channel-buffer through
 * If you copied _weespeak.py_ to _~/.weechat/python/_, you load it by running:
 
  ```/python load weespeak.py```
+
+ * Otherwise load it from any path:
+
+ ```/python load /path/to/script/weespeak.py```
+ 
  * Then set the backend to piper
 
   ```/set plugins.var.python.weespeak.backend piper```
@@ -32,9 +37,7 @@ weespeak will output the incoming messages on the current channel-buffer through
 
 ```/set plugins.var.python.weespeak.piper_model ~/.local/share/piper/en_US-amy-medium.onnx```
 
-* Otherwise load it from any path:
 
- ```/python load /path/to/script/weespeak.py```
 
 * List muted Nicks:
 
